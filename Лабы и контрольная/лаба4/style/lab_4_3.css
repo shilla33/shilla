@@ -1,0 +1,31 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.one {
+    /* вид линии */
+   text-decoration-style: wavy;
+   /* цвет линии */
+   text-decoration-color: blue;
+   /* место расположение */
+   text-decoration-line: underline;
+}
+.two {
+   text-decoration-style: dashed;
+   text-decoration-color: pink;
+   text-decoration-line: underline;
+}
+.three {
+   text-decoration-style: dotted;
+   text-decoration-color: green;
+   text-decoration-line: underline;
+}
+.four {
+   text-decoration-style: double;
+   text-decoration-color: red;
+   text-decoration-line: underline;
+}

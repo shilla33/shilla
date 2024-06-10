@@ -1,0 +1,32 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.one {
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.two {
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    cursor: default;
+}
+.three {
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    cursor: progress;
+}
+.four {
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    cursor: wait;
+}

@@ -1,0 +1,133 @@
+.table {
+    display: grid;
+    grid-template-columns: repeat(6, 150px);
+    grid-auto-rows: minmax(50px, 50px);
+    gap: 5px;
+    text-align: center;
+}
+
+.one {
+    grid-column: 1;
+    grid-row: 1;
+    border: 1px solid black;
+}
+
+.two {
+    grid-column: 2 ;
+    grid-row: 1 ;
+    border: 1px solid black;
+}
+
+.three {
+    grid-column: 3;
+    grid-row: 1 ;
+    border: 1px solid black;
+}
+
+.four {
+    grid-column: 4;
+    grid-row: 1;
+    border: 1px solid black;
+}
+
+.five {
+    grid-column: 5;
+    grid-row: 1;
+    border: 1px solid black;
+}
+
+.six {
+    grid-column: 1;
+    grid-row: 2;
+    border: 1px solid black;
+}
+
+.seven {
+    grid-column: 2 ;
+    grid-row: 2 ;
+    border: 1px solid black;
+}
+
+.eight {
+    grid-column: 3;
+    grid-row: 2 ;
+    border: 1px solid black;
+}
+
+.nine {
+    grid-column: 4;
+    grid-row: 2;
+    border: 1px solid black;
+}
+
+.ten {
+    grid-column: 5;
+    grid-row: 2;
+    border: 1px solid black;
+}
+.eleven {
+    grid-column: 1;
+    grid-row: 3;
+    border: 1px solid black;
+}
+
+.twelve {
+    grid-column: 2 ;
+    grid-row: 3 ;
+    border: 1px solid black;
+}
+
+.thirteen {
+    grid-column: 3;
+    grid-row: 3 ;
+    border: 1px solid black;
+}
+
+.fourteen {
+    grid-column: 4;
+    grid-row: 3;
+    border: 1px solid black;
+}
+
+.fifteen {
+    grid-column: 5;
+    grid-row: 3;
+    border: 1px solid black;
+}
+.sixteen {
+    grid-column: 1;
+    grid-row: 4;
+    border: 1px solid black;
+}
+
+.seventeen {
+    grid-column: 2 ;
+    grid-row: 4 ;
+    border: 1px solid black;
+}
+
+.eighteen {
+    grid-column: 3;
+    grid-row: 4 ;
+    border: 1px solid black;
+}
+
+.nineteen {
+    grid-column: 4;
+    grid-row: 4;
+    border: 1px solid black;
+}
+
+.twenty {
+    grid-column: 5;
+    grid-row: 4;
+    border: 1px solid black;
+}
+
+.all {
+    grid-column: 1/6;
+    grid-row: 5;
+    color: aliceblue;
+    background-color: black;
+    text-align: end;
+}

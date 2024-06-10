@@ -1,0 +1,30 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.one {
+    width: 300px;
+    height: 30px;
+    border: 1px solid black;
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    text-overflow: ellipsis;
+}
+.two {
+    width: 300px;
+    height: 30px;
+    border: 1px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.one:hover, .two:hover {
+    height: 145px;
+    text-overflow: clip;
+    white-space: initial;
+}

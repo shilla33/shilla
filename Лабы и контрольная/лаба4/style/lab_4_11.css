@@ -1,0 +1,18 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: minmax(40px, 1fr) minmax(40px, 1fr);
+    grid-template-rows: minmax(60px, 1fr) minmax(60px, 1fr) minmax(60px, 1fr);
+    gap: 15px;
+}
+
+p {
+    text-align: justify;
+}

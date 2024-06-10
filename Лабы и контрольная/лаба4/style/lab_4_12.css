@@ -1,0 +1,31 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.one {
+    min-width: 300px;
+    height: 400px;
+    background-color: greenyellow;
+}
+.two {
+    min-width: 300px;
+    height: 400px;
+    background-color: greenyellow;
+
+}
+.three {
+    min-width: 300px;
+    height: 400px;
+    background-color: greenyellow;
+
+}
+.four {
+    min-width: 300px;
+    height: 400px;
+    background-color: greenyellow;
+
+}

@@ -1,0 +1,25 @@
+body {
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn {
+    background-color: teal;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.sm {
+    width: 10em;
+}
+
+.xl {
+    width: 15em;
+}

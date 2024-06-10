@@ -1,0 +1,42 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+div {
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;    
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.grayscale {
+    filter: grayscale(1);
+}
+
+.saturate {
+    filter: saturate(50%);
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.sepia {
+    filter: sepia(1);
+}
+
+.hue-rotate {
+    filter: hue-rotate(90deg);
+}
+
+.contrast {
+    filter: contrast(50%);
+}
