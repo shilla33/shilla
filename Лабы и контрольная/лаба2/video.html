@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Главная</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+        <main>
+            <h1>Удовольствие от видео</h1>
+            <section>
+                <h2>Управление плеером</h2>
+                <video controls width="400" height="300" poster="./posterimage.jpg">
+                    <track kind="subtitles" src="./landscape.vtt" srclang="ru" label="Русский">
+                    <source src="./landscape.mp4" type="video/mp4">
+                    <source src="./landscape.webm" type="video/webm">
+                    <source src="./landscape.ogg" type="video/ogg">
+                    <object data="./landscape.swf" type="application/x-shockwave-flash"><param name="mov" value="./landscape.swf"></object>
+                  </video>
+                  </video>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
